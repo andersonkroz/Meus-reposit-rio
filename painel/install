@@ -3,13 +3,15 @@
 echo ""
 echo -e "\033[1;31m Definir Data/Hora. \033[0m"
 echo ""
+echo -e "\033[1;31m DarkBlueSSH @kroz44 Painel Modificado Por AndersonSSH
+echo ""
 echo -e "\033[1;31m Selecionar AMERICA e depois SAO PAULO. \033[0m"
 echo ""
 tput setaf 3 ; tput bold ; read -n 1 -s -p "Aperte qualquer tecla para continuar..." ; echo "" ; echo "" ; tput sgr0
 dpkg-reconfigure tzdata
 clear
 echo ""
-echo -e "\033[1;31m Sempre que solicitado [Y/N] escolha a opÃ§Ã£o Y (Sim para Todos). \033[0m"
+echo -e "\033[1;31m Sempre que solicitado [Y/N] escolha a opÃ§Ã£o Y (Sim para Todos) AndersonSSH. \033[0m"
 echo ""
 tput setaf 3 ; tput bold ; read -n 1 -s -p "Aperte qualquer tecla para continuar..." ; echo "" ; echo "" ; tput sgr0
 apt-get update && apt-get upgrade
@@ -20,7 +22,7 @@ apt-get install php5 libapache2-mod-php5 php5-mcrypt
 service apache2 restart
 clear
 echo ""
-echo -e "\033[1;31m Sempre que for solicitado digite a mesma senha de sua preferencia e pessoal. \033[0m"
+echo -e "\033[1;31m Sempre que for solicitado digite a mesma senha de sua preferencia e pessoal AndersonSSH. \033[0m"
 echo ""
 echo -e "\033[1;31m Utilize uma senha sem caracteres especiais ou espaco, somente LETRAS E NUMEROS. \033[0m"
 echo ""

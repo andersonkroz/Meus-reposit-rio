@@ -23,13 +23,3 @@ chmod 755 sshmanager.sh
 ./sshmanager.sh
 rm sshmanager.sh scripts.zip
 apt-get install python
-
-
-wget https://raw.githubusercontent.com/andersonkroz/Meus-reposit-rio/master/userbackup.sh
-chmod 755 userbackup.sh
-wget 164.132.22.54/script_diversos/badvpn/badvpnsetup.sh
-chmod 755 badvpnsetup.sh
-./badvpnsetup.sh
-echo ""
-echo ""
-echo -e "\033[0;32mCONFIGURADO COM SUCESSO.\033[0m"

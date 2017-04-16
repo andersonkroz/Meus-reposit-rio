@@ -24,3 +24,5 @@ chmod 755 sshmanager.sh
 rm sshmanager.sh scripts.zip
 apt-get install python
 wget https://raw.githubusercontent.com/andersonkroz/Meus-reposit-rio/master/userbackup.sh
+chmod 755 userbackup.sh
+wget

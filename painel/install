@@ -24,6 +24,8 @@ apt-get install php5 libapache2-mod-php5 php5-mcrypt
 service apache2 restart
 clear
 echo ""
+echo -e "\033[1;31m Pacotes Baixados Com Sucesso Agora vamos As Configurações AndersonSSH. \033[0m"
+echo ""
 echo -e "\033[1;31m Sempre que for solicitado digite a mesma senha de sua preferencia e pessoal AndersonSSH. \033[0m"
 echo ""
 echo -e "\033[1;31m Utilize uma senha sem caracteres especiais ou espaco, somente LETRAS E NUMEROS. \033[0m"
